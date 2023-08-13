@@ -26,11 +26,11 @@ const Home = () => {
                         <img src={logoBig}/>
                         <AnimatedLetters letterClass={letterClass}
                                          strArray={nameArray}
-                                         idx={2}/>
+                                         idx={12}/>
                         <br/>
                         <AnimatedLetters letterClass={letterClass}
                                          strArray={jobArray}
-                                         idx={11}/>
+                                         idx={21}/>
                     </h1>
                     <h2>$stacks = ["PHP", "Symfony", "React"] </h2>
                     <Link to="/contact" className="flatButton">Contactez-Moi</Link>
