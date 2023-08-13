@@ -4,7 +4,7 @@
   height: 100%;
   position: absolute;
   top: 0;
-  z-index: 3;
+  z-index: 2;
   min-height: 500px;
 
   .logo {
@@ -77,7 +77,7 @@ nav {
 
   a.aboutLink {
     &:after {
-      content: 'PARCOURS';
+      content: 'A PROPOS';
     }
   }
 
@@ -105,14 +105,16 @@ ul {
   margin: 0;
 
   li {
-    a{
+    a {
       padding: 7px 0;
       display: block;
       font-size: 15px;
       line-height: 16px;
 
       &:hover svg {
-        color: #FFd700;
+        .anchor-icon {
+          color: #ffd700;
+        }
       }
     }
   }
